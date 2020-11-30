@@ -1,0 +1,27 @@
+.button{
+    background-color:$sec-color;
+    border-radius:40px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    border:none;
+    height: 60px;
+    &_big{
+        width: 200px;
+    }
+    &_small{
+        width: 168px;
+    }
+    &:active, &:focus{
+        outline: none;
+    }
+    
+       
+    
+    &:hover{
+        background-color:#5BA455;
+    }
+}

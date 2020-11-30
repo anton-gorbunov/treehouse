@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
+
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/titles';
+@import 'blocks/services';
+@import 'blocks/relax';
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}

@@ -1,0 +1,26 @@
+.header{
+    padding:43px 0;
+    &__wrapper{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:30px;
+        grid-auto-rows:auto;
+    }
+    &__list{
+        display:flex;
+        list-style-type: none;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0;
+    }
+    &__link{
+        color:$main-color;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        &:hover{
+            color:$main-color;
+        }
+    }
+}
