@@ -1,0 +1,14 @@
+.logotipes{
+    padding:60px 0;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows:auto;
+        grid-auto-rows: auto;
+        align-items: center;
+        justify-items: center;
+    }
+    &__img{
+        
+    }
+}

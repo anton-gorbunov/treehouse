@@ -1,0 +1,36 @@
+.footer-links{
+    padding: 30px 0;
+    .container{
+        position:relative;
+    }
+    &__link{
+        position:absolute;
+        top:50%;
+        transform: translateY(-50%);
+        left:0px;
+        color: #555555;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        cursor: pointer;
+        &:hover{
+            color:#555555;
+            text-decoration: none;
+        }
+    }
+    &__wrapper{
+        width:200px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    &__round{
+        width:40px;
+        height: 40px;
+        background-color: #222222;
+        border-radius: 50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

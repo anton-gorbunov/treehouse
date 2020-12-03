@@ -1,8 +1,19 @@
 .project{
     padding:100px 0;
-    background-image:url(../img/tablet.png);
+    position:relative;
+    overflow: hidden;
+   /*  background-image:url(../img/tablet.png);
     background-position:160% 90%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    &__tablet{
+        width:75%;
+        position: absolute;
+        left:52%;
+        top:25%;
+        img{
+            width:100%;
+        }
+    }
     &__header{
         margin-top: 86px;
         width:420px;

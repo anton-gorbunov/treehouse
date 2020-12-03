@@ -3,7 +3,7 @@
     &__wrapper{
         display:grid;
         grid-template-columns: 1fr 2fr;
-        grid-template-rows:616px;
+        grid-template-rows:auto;
     }
     &__grey-block{
         background-color: #e9e9e9;
@@ -33,6 +33,7 @@
         }
     }
     &__subtitle{
+        width:500px;
         margin-top: 30px;
         color: #cccccc;
         font-size: 16px;

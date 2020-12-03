@@ -1,5 +1,14 @@
 .header{
     padding:43px 0;
+    &__hamburger-menu{
+        display: none;
+    }
+    &__social{
+        display: none;
+    }
+    &__overlay{
+        display: none;
+    }
     &__wrapper{
         display:grid;
         grid-template-columns: repeat(2,1fr);
